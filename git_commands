@@ -1,0 +1,13 @@
+git config commands:
+1. git config --global user.name "user name "  :to set user name
+2. git config --global user.email "email"      :to set email
+3. git congig --list  :to list all the configuration details
+
+git clone and status:
+1. clone:cloning a repository on our local machine
+      git clone <link>
+
+2. status:displays the state of the code
+      git status
+
+
