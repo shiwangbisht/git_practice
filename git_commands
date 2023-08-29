@@ -1,13 +1,28 @@
-git config commands:
+@git config commands:
+
 1. git config --global user.name "user name "  :to set user name
 2. git config --global user.email "email"      :to set email
 3. git congig --list  :to list all the configuration details
 
-git clone and status:
+@git clone and status:
+
 1. clone:cloning a repository on our local machine
       git clone <link>
 
 2. status:displays the state of the code
       git status
+    
+    #types of status:
+      1.untracked: new files that git doesn't yet tracked
+      2.modified: changes are made to a file
+      3.staged: file is added and ready to be committed
+      4.unmodified: unchanged 
 
+@ add & commit
+
+1. add:add newor changed files in your working directory to the git straight area
+      git add <file name>
+
+2. commit:it is the record of change
+      git commit -m "some message"
 
